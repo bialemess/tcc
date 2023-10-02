@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.menu-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.menu-button:hover {
+    background-color: #555;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 16px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #555;
+}
+
+.form-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.form-container p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.editable img {
+    pointer-events: none;
+    /* Impede a edição direta da imagem */
+}
+
+.editable input[type="file"] {
+    display: none;
+}
+
+.form-container input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+tr input:hover, tr input:focus, tr input:active, tr input {
+    border: none;
+    outline: none;
+    width: min-content;
+    margin: auto;
+}
+
+tr input, tr input::placeholder {
+    text-align: center;
+}
+
+.form-container input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.form-container label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-container input[type="radio"] {
+    margin-right: 10px;
+}
+
+
+#nomePrato {
+    font-size: 20px;
+    font-weight: bold;
+}
